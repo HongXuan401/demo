@@ -1,0 +1,658 @@
+.fs-20{
+	font-size: 20px;
+}
+.fs-30{
+	font-size: 30px;
+}
+.list_news #include{
+	padding-top: 0;
+}
+.banner_slide .item img{
+	width: 100%;
+}
+.topheader .col-md-3 img {
+	max-height: 120px;
+}
+
+.col-md-offset-6{
+	margin-left: 50%;
+}
+#owlassociation .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#owlassociation .item .hello{
+	width: 144px;
+	height: auto;
+}
+/* @media (min-width: 992px) { */
+.bottomheader ul {
+	display: flex;
+	justify-content: space-evenly;
+}
+.bottomheader ul li{
+	position: relative;
+}
+.bottomheader ul>li::before{
+	content: "";
+    border-top: 2px solid transparent;
+    position: absolute;
+    width: 100%;
+    top: -2px;
+}
+.bottomheader ul li.active:before, .bottomheader ul>li:hover:before{
+	border-color: #f37123;
+}
+.bottomheader ul li a{
+	padding: 12px 17px 13px 17px;
+    display: inline-block;
+    font-family: "MYRIADPRO-BOLDCOND";
+    font-size: 18px;
+    color: #00529c;
+}
+.bottomheader ul li:hover a{
+	color:#f37123;
+	transition: 0.2s;
+}
+.bottomheader li ul{
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	top: 100%;
+    width: 222px;
+    background: rgba(34,34,34,0.75);
+    transition: 0.3s;
+    z-index: 1;
+    display: block;
+}
+.bottomheader ul>li:hover > ul{
+	opacity: 1;
+	visibility: visible;
+}
+.bottomheader li ul li a{
+	color:#fff !important;
+	transition: 0.3s;
+}
+.bottomheader li ul li:hover {
+	background-color: #f37123;
+}
+
+#form_contact .form-group{
+	margin-bottom: 15px;
+}
+#form_contact .btn{
+	background-color: #ea050b;
+	color:#fff;
+	transition: 0.2s;
+}
+#form_contact .btn:hover{
+	background-color: #ea050b;
+}
+.contact-slide .btn_prev{
+	left: -50px;
+}
+.contact-slide .btn_nxt{
+	right: -50px;
+}
+.contact-slide .btn_prev:after{
+	font-size: 12px;
+}
+.contact-slide .btn_nxt:after{
+	font-size: 12px;
+}
+.contact-slide .btn_move{
+	color: #FFF;
+    background: #869791;
+    opacity: 0.5;
+    border-radius:30px;
+    width: 45px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    z-index:1;s
+}
+#include .newsdetail #title{
+	font-family: "MYRIADPRO-SEMIBOLD";
+}
+.fs-18{
+	font-size: 18px;
+}
+.fs-22-cover{
+	font-size: 22px;
+}
+
+.change-language a:nth-child(2){
+	margin-left:8px;
+}
+.contact-slide span{
+	pointer-events: none;
+}
+
+.show {
+    /*display: block !important;*/
+}
+.hidden {
+    display: none !important;
+}
+.back-to-top {
+    display: none;
+    position: fixed;
+    font-size: 26px;
+    cursor: pointer;
+    text-align: center;
+    z-index: 100;
+    width: 35px;
+    height: 35px;
+    line-height: 25px;
+    right: 15px;
+    bottom: 55px;
+    background: white;
+    border-radius: 100%;
+    color: #0e426a;
+    border: solid 1px #0e426a;
+}
+.back-to-top:hover {
+    background: #0e426a;
+    color: white;
+}
+.validate_error{
+	transition: all 0.3s;
+}
+#vietnammap .marker_map{
+	position: relative;
+}
+#vietnammap .marker_map p {
+	display: inline-block;
+	width: 100%;
+	color: #00529c;
+}
+
+#vietnammap .marker_map p img {
+	max-width: 110px;
+	float: left;
+}
+
+#vietnammap .marker_map p span {
+	float: left;
+}
+
+#vietnammap .marker_map p span:first-child {
+	width: 30%;
+}
+
+#vietnammap .marker_map p span:last-child {
+	padding-left: 10px;
+	width: 70%;
+	color: #ea050b;
+	font-size: 17px;
+	font-family: "MYRIADPRO-SEMIBOLD";
+}
+#vietnammap .marker_map p i {
+	color: #ea050b;
+}
+
+#vietnammap .marker_map .item {
+	position: absolute;
+	z-index: 1;
+	cursor: pointer;
+}
+#vietnammap .marker_map .item>div {
+	float: left;
+}
+
+#vietnammap .marker_map #info {
+	position: absolute;
+	top: -90px;
+	left: 45px;
+	width: 400px;
+	background: rgba(219, 219, 219, 0.9);
+	padding: 20px;
+	border-radius: 20px;
+	opacity: 0;
+	visibility: hidden;
+}
+
+#vietnammap .marker_map #info:before {
+	content: "";
+	width: 34px;
+	height: 49px;
+	position: absolute;
+	right: 100%;
+	top: calc(50% - 24.5px);
+	background: url("../images/arrowmap.png") no-repeat;
+}
+
+#vietnammap .marker_map #wrap .item:first-child {
+	bottom: 17%;
+	left: 36%;
+}
+
+#vietnammap .marker_map #wrap .item:nth-child(2) {
+	top: 18.5%;
+    left: 32%;
+}
+#vietnammap .marker_map #wrap .item:nth-child(3) {
+	bottom: 21%;
+	left: 32%;
+}
+
+
+#vietnammap .marker_map #wrap .item:nth-child(4) {
+	bottom: 10%;
+	left: 29%;
+}
+
+#vietnammap .marker_map #wrap .item:nth-child(5) {
+	bottom: 20%;
+	left: 35%;
+}
+
+#vietnammap .marker_map #wrap .item:nth-child(6) {
+		top: 15.5%;
+		left: 35%;
+}
+
+#vietnammap .marker_map #wrap .item:nth-child(7) {
+	bottom: 51%;
+    left: 46%;
+}
+
+#vietnammap .marker_map #wrap .item:nth-child(8) {
+	top: 13.5%;
+	left: 28%;
+}
+
+#vietnammap .marker_map #wrap .item:nth-child(9) {
+	bottom: 21%;
+	left: 23%;
+}
+
+#vietnammap .marker_map #wrap .item:last-child {
+  bottom: 15%;
+	left: 38%;
+	
+}
+#vietnammap .marker_map #wrap .item:hover #info {
+	opacity: 1;
+	visibility: visible;
+}
+.footerSlide .swiper-wrapper{
+	flex-direction: unset !important;
+}
+.topfooter .map iframe{
+	height: 100%;
+}
+
+@media(min-width: 1024px){
+
+
+	#kinhdoanh .info {
+		padding: 0 35px;
+	}
+	#vietnammap .marker_map #info {
+		left: -78px;
+	}
+	.header .header-content .logo{
+		display: none;
+	}
+}
+@media (max-width:1024px) {
+	.contact-slide .btn_nxt, .contact-slide .btn_prev {
+		display: none;
+	} 
+	#vietnammap .marker_map #info:before {
+		background: none;
+	}
+	nav#left {
+		display: none;
+	}
+	#kinhdoanh .info {
+		padding: 0 35px;
+	}
+	.bottomfooter {
+	padding: 5px 0;
+	}
+	.header-content {
+		z-index:999;
+	}
+}
+@media(max-width: 991px){
+	.header .header-content .logo{
+		width: 80px;
+		height: auto;
+	}
+	.coccoc-alo-phone{
+		right:0;
+	}
+	.new_services .col-img-fix{
+		flex:0 0 30%;
+	}
+	.new_services .col-cnt-fix{
+		flex:0 0 70%;
+	}
+	#aboutus{
+		background:none !important;
+	}
+	#whyus{
+		background: none  !important;	
+	}
+	#topnews .swiper-button-next, .swiper-container-rtl .swiper-button-next{
+		display: 	none;
+	}
+	#topnews .swiper-button-prev, .swiper-container-rtl .swiper-button-prev{
+		display: 	none
+	}
+}
+
+@media (max-width: 575px) {
+	#vietnammap .marker_map #info {
+	    position: absolute;
+	    top: -90px;
+	    left: 45px;
+	    width: 250px;
+	    background: rgba(219, 219, 219, 0.9);
+	    padding: 20px;
+	    border-radius: 20px;
+	    opacity: 0;
+	    visibility: hidden;
+	}
+	.swiper-container {
+		z-index:0;
+	}
+	#vietnammap .marker_map p img {
+		display: none;
+	}
+	#vietnammap .marker_map p span:last-child {
+	  
+	    width: 100%;
+	    color: #ea050b;
+	    font-size: 15px;
+	    font-family: "MYRIADPRO-SEMIBOLD";
+	}
+	#vietnammap .marker_map p {
+		margin-bottom: 5px;
+	}
+}
+@media(max-width: 425px){
+	.breakcrumbs{
+		position: unset;
+		border-top-left-radius: 0;
+	}
+	.banner .body{
+		top:37%;
+	}
+}
+
+.row_service::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+.row_service::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.row_service::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+
+.mr-row .wrapper_mg::-webkit-scrollbar {
+	width: 10px;
+} 
+/* Track */
+.mr-row .wrapper_mg::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.mr-row .wrapper_mg::-webkit-scrollbar-thumb {
+  background:#ea050b;
+}
+.main-menu li ul  {
+	top: 0;
+}
+.menu_sidebar .name.active{
+	color:#ea050b;
+}
+.main-menu li.active >a{
+	color:#ea050b;
+}
+.change-language a{
+	filter: brightness(0.5);
+}
+.change-language a.active{
+	filter:brightness(1);
+}
+.chay-ngang{
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+.chay-ngang:before {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0.2);
+    content: '';
+   transition:.5s all
+    -webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);
+    transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,135deg) translate3d(0,100%,0);
+    opacity: 0;
+    filter: alpha(opacity=0);
+    visibility: hidden;
+}
+.chay-ngang:hover:before {
+    -webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0);
+    transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,135deg) translate3d(0,-100%,0);
+    opacity: 1;
+    filter: alpha(opacity=100);
+    visibility: initial;
+    transition:.5s;
+}
+
+.partner_hv:hover {
+	
+	
+	transition:.5s;
+}
+.slide_item {
+	padding: 10px;
+	transition:.5s;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.slide_item  a {
+	text-align: center;
+	display: block;
+	height: 110px;
+	width: 100%;
+	padding:10px;
+	overflow: hidden;
+}
+.slide_item img {
+	height:auto;
+	
+	object-fit: cover;
+}
+.assoc_slide_hv:hover {
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	transition:.5s;
+}
+.hv_img {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.hv_img::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  display: block;
+  content: "";
+  width: 0;
+  height: 0;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 100%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.hv_img:hover::before {
+  -webkit-animation: circle 0.75s infinite;
+  animation: circle 0.75s infinite;
+}
+@-webkit-keyframes circle {
+  0% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  100% {
+    width: 200%;
+    height: 200%;
+    opacity: 0;
+  }
+}
+.img h2 {
+	margin: 0;
+}
+.logo-hover {
+	position: relative;
+	overflow: hidden;
+	 animation: run 0.75s 1s infinite;
+}
+@media (max-width:768px) {
+	#vietnammap .marker_map #info  {
+		left: -25px;
+	}
+	#vietnammap .item .marker img {
+		max-width:50%;
+	}
+}
+@media (max-width: 480px) {
+	#vietnammap .marker_map #info {
+    	left: -13px;
+	}
+	#vietnammap .marker_map #info:before{
+		background: none;
+	}
+	#countup1 .num {
+	    font-size: 14px;
+	}
+	#countup1 .counter {
+    	font-size: 50px;
+	}
+	#service .item .info h6{
+		margin-bottom: 4px;
+	}
+}
+@media(max-width: 380px) {
+	#vietnammap .marker_map #info {
+		left: -61px;
+	}
+	.banner .body{
+		top:23%;
+	}
+}
+@media(max-width: 320px){
+	.breakcrumbs{
+		position: unset;
+		border-top-left-radius:unset;
+	}
+	#service .item .content{
+		top: 50%;
+		transform: translateY(-50%);
+		height: 60%;
+	}
+}
+@media(min-width: 768px) and (max-width: 990px){
+	#service .item .content{
+		top: 50%;
+		transform: translateY(-50%);
+		height: 60%;
+	}
+}
+.pagination a {
+  color: #337ab7;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  display: block;
+  padding: 0.3125rem 0.625rem;
+  font-size: 0.75rem;
+}
+.pagination a:hover,
+.pagination a :focus {
+  color: #23527c;
+  background-color: #eee;
+  border-color: #ddd;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.pagination a:first-child {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.pagination a:last-child {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.pagination strong {
+  color: #fff;
+  cursor: default;
+  background-color: #337ab7;
+  border: 1px solid #337ab7;
+  border-color: #337ab7;
+  display: block;
+  padding: 0.3125rem 0.625rem;
+  font-size: 0.75rem;
+}
+#countup1 .counter {
+	font-size: 60px;
+}
+#countup1 p {
+	margin-bottom: 0;
+}
+#countup1 .img {
+	display: inline-block;
+	margin-bottom: 0;
+}
+#countup1    img{
+	min-height:70px;
+	max-height: 70px;
+	max-width:100%;
+	object-fit: contain;
+}
+#countup1  .row {
+	display: flex;
+	align-items: center;
+}
+.title_dn span::before {
+     background: none;
+}
+footer .coppy_flex a{
+	transition: 0.2s;
+}
+footer .coppy_flex a:hover{
+	color:#ea050b;
+}
+.main-menu .show-menu__products{
+	right:10px;
+	color:#ea050b;
+}
+.form-control::placeholder{
+	text-transform: uppercase;
+}
